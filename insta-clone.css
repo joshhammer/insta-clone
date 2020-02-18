@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: rgb(250,250,250);
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+input {
+    display: block;
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 1em;
+    background: rgb(250,250,250);
+    font-size: 0.75rem;
+    border: 1px solid rgb(230,230,230);
+    border-radius: 5px;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(160,160,160);
+}
+
+span {
+    font-weight: bold;
+}
+
+.fa-facebook-square {
+    font-size: 1rem;
+    margin-right: 0.25rem;
+}
+
+a {
+    color: rgb(81,151,233);
+    text-decoration: none;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+.content {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    width: 50%;
+    margin: 2em 0 1em 0;
+    padding-top: 8em;
+}
+
+.sign-up, .log-in {
+    background: white;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 0 2em;
+    margin-bottom: 0.5em;
+
+}
+
+.main-right {
+    margin: 2em 0 1em 0;
+    width: 46%;
+    text-align: center;
+    color: rgb(160,160,160);
+}
+
+h1 {
+    padding: 0.4em 0 0.25em 0;
+    color: black;
+    font-family: 'Cookie', cursive;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    padding-bottom: 1em;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.or {
+    font-weight: bold;
+}
+
+button {
+    background: rgb(81,151,233);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.4em 0;
+    margin-bottom: 1em;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    background: rgb(137, 192, 255);
+}
+
+.form-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 1em 0;
+}
+
+.policy {
+    padding: 0.5em 1.25em;
+    margin-bottom: 3em;
+    line-height: 1.25em;
+}
+
+.log-in {
+    padding: 1.5em 0;
+    color: black;
+    margin-bottom: 2em;
+}
+
+.get-app {
+    color: black;
+}
+
+.app-store-icon {
+    display: inline-block;
+    max-width: 40%;
+    margin: 1em 0.25em;
+}
+
+
+
+.footer {
+    width: 100%;
+    padding: 4em 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.links li {
+    margin: 0 1em;
+}
+
+.links a {
+       color: rgb(16,54,102);
+       font-weight: bolder;
+}
+
+.copyright p {
+    color: rgb(160,160,160);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8rem;
+}
